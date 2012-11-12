@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <section>
+      {{#details}}
+        <h1>{{firstName}} {{lastName}}</h1>
+        <dl>
+          <dt>email</dt>
+          <dd>{{email}}</dd>
+          <dt>phone</dt>
+          <dd>{{phone}}</dd>
+          <dt>twitter</dt>
+          <dd>{{twitter}}</dd>
+          <dt>github</dt>
+          <dd>{{github}}</dd>
+        </dl>
+      {{/details}}
+    </section>
+    <section>
+      {{#experience}}
+        <div itemscope itemtype="http://schema.org/Organization">
+          <h1>{{title}}</h1>
+          <h2 itemprop="name">{{company}}</h2>
+          {{#accomplishments}}
+            <li>{{detail}}</li>
+          {{/accomplishments}}
+        </div>
+      {{/experience}}
+    </section>
+    <script type='text/javascript' />
+      var ResumeData = {{{resume}}};
+    </script>
+    <script type='text/javascript' src='/javascripts/slide.js'></script>
+  </body>
+</html>
