@@ -10,7 +10,7 @@
   , "summary": ""
   },
   "about": {
-  , "skills": {"languages": []}
+    "skills": {"languages": []}
   , "experience": [
     {
       "company": "Groupon"
@@ -19,7 +19,7 @@
     , "end": "Present"
     , "accomplishments": [
       { "detail": "Successfully grew and managed three high profile engineering teams - Optimize, Specialize and Personalize" }
-    , { "detail": "Implemented Groupons A/B and multivariate testing infastructure \"finch\" based on google\"s \"Overlapping Experiment Infrastructure : More, Better, Faster Experimentation\" white paper." }
+    , { "detail": "Developed and implemented Groupon's A/B and multivariate testing infastructure \"finch\" based on google's \"Overlapping Experiment Infrastructure : More, Better, Faster Experimentation\" white paper." }
     , { "detail": "Increased revenue by > 10% in Q1 2011 using aa/b testing and data driven development"}
     , { "detail": "Implemented \"DealTypes\" for stronger user personalization"}
     , { "detail": "Created Groupons channels platform including GrouponLive, GrouponGetaways, GrouponGoods and the Occasions channel"}
@@ -34,6 +34,9 @@
     , "accomplishments": [
       { "detail": "Worked with a wide array of clients such as Orbitz, Sears, PepBoys, Kaplan, Three Floyds, Rosemont Society of Actuaries and others."}
     , { "detail": "Led a team of Front end developers on Sears managemyhome.com."}
+    , { "detail": "Worked with Dearborn/Kaplan Financial's (www.kaplanfinancial.com) on-line production department producing Webcasts and interactive Flash content." }
+    , { "detail": "Worked with the Illinois Math And Science Academy (imsa.edu) to build a Standards Compliant XHTML/CSS web solution." } 
+    , { "detail": "Developed custom web solutions using PHP, XML, HTML, CSS,Javascript, AJAX and Flash." }
     ]
     , "skills": ["TDD", "JavaScript", "Ruby", "Nodejs", "Jasmine", "rSpec", "cucumber", "RoR", "css", "html"]
     }

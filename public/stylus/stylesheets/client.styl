@@ -1,0 +1,44 @@
+body
+  color: #EFEFEF
+  font: 14px font-family
+  dl
+    &:before,
+    &:after
+      display: table
+      content: ""
+    &:after 
+      clear: both
+    dt,
+    dd
+      float: left
+    dt
+      font-weight: bold
+      clear: left
+      margin-right: 10px
+      &:after
+        content: ":"
+  menu
+    li
+      list-style: none
+      display: inline-block
+      border: 1px solid #EEE
+      border-left: 0 none
+      padding: 0 4px
+      &:first-child
+        border: 1px solid #EEE
+        border-top-left-radius: 3px
+        border-bottom-left-radius: 3px
+      &:last-child
+        border-top-right-radius: 3px
+        border-bottom-right-radius: 3px
+      a
+        text-decoration: none
+        color: link-color
+  .typeahead
+    li
+      list-style: none
+      border: 1px solid #EEE
+      border-top: 0 none;
+      margin: 0
+      &:first-child
+        border: 1px solid #EEE

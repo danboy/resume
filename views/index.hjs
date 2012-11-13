@@ -5,32 +5,34 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <section>
-      {{#details}}
-        <h1>{{firstName}} {{lastName}}</h1>
-        <dl>
-          <dt>email</dt>
-          <dd>{{email}}</dd>
-          <dt>phone</dt>
-          <dd>{{phone}}</dd>
-          <dt>twitter</dt>
-          <dd>{{twitter}}</dd>
-          <dt>github</dt>
-          <dd>{{github}}</dd>
-        </dl>
-      {{/details}}
-    </section>
-    <section>
-      {{#experience}}
-        <div itemscope itemtype="http://schema.org/Organization">
-          <h1>{{title}}</h1>
-          <h2 itemprop="name">{{company}}</h2>
-          {{#accomplishments}}
-            <li>{{detail}}</li>
-          {{/accomplishments}}
-        </div>
-      {{/experience}}
-    </section>
+    <article class='grid'>
+      <section class='row'>
+        {{#details}}
+          <h1>{{firstName}} {{lastName}}</h1>
+          <dl>
+            <dt>email</dt>
+            <dd>{{email}}</dd>
+            <dt>phone</dt>
+            <dd>{{phone}}</dd>
+            <dt>twitter</dt>
+            <dd>{{twitter}}</dd>
+            <dt>github</dt>
+            <dd>{{github}}</dd>
+          </dl>
+        {{/details}}
+      </section>
+      <section>
+        {{#experience}}
+          <div class='stage' itemscope itemtype="http://schema.org/Organization">
+            <h1>{{title}}</h1>
+            <h2 itemprop="name">{{company}}</h2>
+            {{#accomplishments}}
+              <li>{{detail}}</li>
+            {{/accomplishments}}
+          </div>
+        {{/experience}}
+      </section>
+    </article>
     <script type='text/javascript' />
       var ResumeData = {{{resume}}};
     </script>
