@@ -11,10 +11,9 @@ Groupon
 ### Engineering Manager
 >Successfully grew and managed three high profile engineering teams - Optimize, Specialize and Personalize
 >Developed and implemented Groupon's A/B and multivariate testing infastructure "finch" based on google's "Overlapping Experiment Infrastructure : More, Better, Faster Experimentation" white paper.
->Increased revenue by > 10% in Q1 2011 using aa/b testing and data driven development
+>Increased revenue by > 10% in Q1 2011 using a/b testing and data driven development
 >Implemented "DealTypes" for stronger user personalization
 >Created Groupons channels platform including GrouponLive, GrouponGetaways, GrouponGoods and the Occasions channel
->Contractor
 
 Self Employed
 -------------
