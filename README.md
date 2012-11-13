@@ -2,9 +2,13 @@ Dan Nawara
 ==========
 
 email: [dan@nawara.com](mailto:dan@nawara.com)
+
 phone: (773) 895-9336
-google voice: <object type="application/x-shockwave-flash" data="https://clients4.google.com/voice/embed/webCallButton" width="230" height="85"><param name="movie" value="https://clients4.google.com/voice/embed/webCallButton" /><param name="wmode" value="transparent" /><param name="FlashVars" value="id=3e6fd7d454d943550a374af4458bdf501fb83478&style=0" /></object>
+
+linkedIn: [Dan Nawara](http://www.linkedin.com/pub/dan-nawara/4/263/268)
+
 twitter: [@dnawara](http://twitter.com/dnawara)
+
 github: [danboy](http://danboy.github.com)
 
 Groupon
