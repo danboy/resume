@@ -5,8 +5,8 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <article class='grid'>
-      <section class='row'>
+    <article class='full'>
+      <section class='stage'>
         {{#details}}
           <h1>{{firstName}} {{lastName}}</h1>
           <dl>
@@ -16,6 +16,10 @@
             <dd>{{phone}}</dd>
             <dt>twitter</dt>
             <dd>{{twitter}}</dd>
+            <dt>linkedIn</dt>
+            {{#linkedIn}}
+            <dd><a href='{{link}}' title='linkedIn profile'>{{name}}</a></dd>
+            {{/linkedIn}}
             <dt>github</dt>
             <dd>{{github}}</dd>
           </dl>
@@ -23,9 +27,25 @@
       </section>
       <section>
         {{#experience}}
-          <div class='stage' itemscope itemtype="http://schema.org/Organization">
-            <h1>{{title}}</h1>
-            <h2 itemprop="name">{{company}}</h2>
+          <div class='stage' id='{{camelName}}' itemscope itemtype='http://schema.org/Organization'>
+            <a name='{{camelName}}'>
+              <h1 itemprop='name'>{{company}}</h1>
+            </a>
+            {{#siblings}}
+            <menu>
+              <li class='next'>
+              {{#next}}
+              <a href='#{{next}}'>next</a>
+              {{/next}}
+              </li>
+              <li>
+              {{#previous}}
+              <a href='#{{previous}}'>previous</a>
+              {{/previous}}
+              </li>
+            </menu>
+            {{/siblings}}
+            <h2>{{title}}</h2>
             {{#accomplishments}}
               <li>{{detail}}</li>
             {{/accomplishments}}

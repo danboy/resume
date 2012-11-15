@@ -6,7 +6,7 @@
   , "email": "dan@nawara.com"
   , "twitter": "@dnawara"
   , "github": "danboy"
-  , "linkedIn": "http://www.linkedin.com/pub/dan-nawara/4/263/268"
+  , "linkedIn": { "name": "Dan Nawara", "link": "http://www.linkedin.com/pub/dan-nawara/4/263/268" }
   , "phone": "7738959336"
   , "summary": ""
   },
@@ -15,7 +15,8 @@
   , "experience": [
     {
       "company": "Groupon"
-    , "title": "Engineering Manager"
+    , "camelName": "groupon"
+    , "title": "Sr. Engineering Manager"
     , "start": "03/01/2010"
     , "end": "Present"
     , "accomplishments": [
@@ -28,7 +29,8 @@
     , "skills": ["TDD", "JavaScript", "Ruby", "Nodejs", "Jasmine", "rSpec", "cucumber", "RoR", "css", "html"]
     }
   , {
-      "company": "Self Employed"
+      "company": "Independent Contractor"
+    , "camelName": "independent"
     , "title": "Contractor"
     , "end": "03/01/2010"
     , "start": "01/01/2002"
@@ -43,6 +45,7 @@
     }
   , {
       "company": "Kanbay inc."
+    , "camelName": "kanbay"
     , "title": "SR Consultant"
     , "start": "08/01/1999"
     , "end": "01/01/2001"
@@ -53,7 +56,8 @@
     , "skills": ["TDD", "JavaScript", "Ruby", "Nodejs", "Jasmine", "rSpec", "cucumber", "RoR", "css", "html"]
     }
   , {
-      "company": "Self Employed"
+      "company": "Independent Contractor"
+    , "camelName": "selfEmployed"
     , "title": "Contractor"
     , "start": "09/01/1997"
     , "end": "07/01/1998"
@@ -64,6 +68,7 @@
     }
   , {
       "company": "Cross Access Corporation"
+    , "camelName": "crossAccess"
     , "title": "SR Consultant"
     , "start": "09/01/1994"
     , "end": "09/01/1997"

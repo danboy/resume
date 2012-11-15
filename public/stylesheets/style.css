@@ -1068,8 +1068,11 @@ body ul.special li:before {
   margin: 0 10px 0 0;
 }
 body {
-  color: #efefef;
+  color: #f9f9f9;
   font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body a {
+  color: #efefef;
 }
 body dl:before,
 body dl:after {
@@ -1094,22 +1097,11 @@ body dl dt:after {
 body menu li {
   list-style: none;
   display: inline-block;
-  border: 1px solid #eee;
-  border-left: 0 none;
   padding: 0 4px;
-}
-body menu li:first-child {
-  border: 1px solid #eee;
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
-}
-body menu li:last-child {
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
 }
 body menu li a {
   text-decoration: none;
-  color: #369;
+  color: #e0e0e0;
 }
 body .typeahead li {
   list-style: none;
@@ -1119,4 +1111,46 @@ body .typeahead li {
 }
 body .typeahead li:first-child {
   border: 1px solid #eee;
+}
+body .stage {
+  width: 90%;
+  height: 90%;
+  padding: 5%;
+  margin: 0;
+  background-color: #fff;
+}
+body .stage h1 {
+  font-size: 75px;
+  line-height: 75px;
+  margin: -5% 20px 0 -5%;
+}
+body .stage.groupon {
+  background-color: #8ab657;
+}
+body .stage.selfEmployed {
+  background-color: #ffc00c;
+}
+body .stage.kanbay {
+  background-color: #bf2f38;
+}
+body .stage.crossAccess {
+  background-color: #089494;
+}
+body .stage.current {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99;
+}
+body .stage.groupon {
+  background-color: #fff;
+}
+body .stage.selfEmployed {
+  background-color: #fffcfc;
+}
+body .stage.kanbay {
+  background-color: #fffdfe;
+}
+body .stage.crossAccess {
+  background-color: #fcfdfe;
 }
