@@ -28,27 +28,29 @@
       <section>
         {{#experience}}
           <div class='stage' id='{{camelName}}' itemscope itemtype='http://schema.org/Organization'>
-            <a name='{{camelName}}'>
-              <h1 itemprop='name'>{{company}}</h1>
-            </a>
-            {{#siblings}}
-            <menu>
-              <li class='next'>
-              {{#next}}
-              <a href='#{{next}}'>next</a>
-              {{/next}}
-              </li>
-              <li>
-              {{#previous}}
-              <a href='#{{previous}}'>previous</a>
-              {{/previous}}
-              </li>
-            </menu>
-            {{/siblings}}
-            <h2>{{title}}</h2>
-            {{#accomplishments}}
-              <li>{{detail}}</li>
-            {{/accomplishments}}
+            <div class='sixteen row'>
+              <a name='{{camelName}}'>
+                <h1 itemprop='name'>{{company}}</h1>
+              </a>
+              {{#siblings}}
+              <menu>
+                <li class='next'>
+                {{#next}}
+                <a href='#{{next}}'>next</a>
+                {{/next}}
+                </li>
+                <li>
+                {{#previous}}
+                <a href='#{{previous}}'>previous</a>
+                {{/previous}}
+                </li>
+              </menu>
+              {{/siblings}}
+              <h2>{{title}}</h2>
+              {{#accomplishments}}
+                <li>{{detail}}</li>
+              {{/accomplishments}}
+            </div>
           </div>
         {{/experience}}
       </section>
